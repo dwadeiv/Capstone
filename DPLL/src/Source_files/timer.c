@@ -39,24 +39,24 @@
 
 /***************************************************************************//**
  * @brief
- *   Driver to open an set an LETIMER peripheral in PWM mode
+ *   Driver to open an set an TIMER peripheral in PWM mode
  *
  * @details
  * 	 This routine is a low level driver.  The application code calls this function
- * 	 to open one of the LETIMER peripherals for PWM operation to directly drive
+ * 	 to open one of the TIMER peripherals for PWM operation to directly drive
  * 	 GPIO output pins of the device and/or create interrupts that can be used as
  * 	 a system "heart beat" or by a scheduler to determine whether any system
  * 	 functions need to be serviced.
  *
  * @note
  *   This function is normally called once to initialize the peripheral and the
- *   function letimer_start() is called to turn-on or turn-off the LETIMER PWM
+ *   function timer_start() is called to turn-on or turn-off the TIMER PWM
  *   operation.
  *
- * @param[in] letimer
- *   Pointer to the base peripheral address of the LETIMER peripheral being opened
+ * @param[in] timer
+ *   Pointer to the base peripheral address of the TIMER peripheral being opened
  *
- * @param[in] app_letimer_struct
+ * @param[in] app_timer_struct
  *   Is the STRUCT that the calling routine will use to set the parameters for PWM
  *   operation
  *
@@ -166,14 +166,14 @@ void timer_pwm_open(TIMER_TypeDef *timer, APP_TIMER_PWM_TypeDef *app_timer_struc
 
 void TIMER0_IRQHandler(void) {
 	uint32_t int_flag;
-	int_flag = LETIMER0->IF & LETIMER0->IEN;
+	int_flag = TIMER0->IF & TIMER0->IEN;
 	LETIMER0->IFC = int_flag;
 	if(int_flag & LETIMER_IF_UF){
-		EFM_ASSERT(!(LETIMER0->IF & LETIMER_IF_UF));
+		EFM_ASSERT(!(TIMER0->IF & TIMER_IF_UF));
 		add_scheduled_event(scheduled_uf_evt);
 	}
 	if(int_flag & LETIMER_IF_COMP0){
-		EFM_ASSERT(!(LETIMER0->IF & LETIMER_IF_COMP0));
+		EFM_ASSERT(!(TIMER0->IF & TIMER_IF_COMP0));
 		add_scheduled_event(scheduled_comp0_evt);
 	}
 	if(int_flag & LETIMER_IF_COMP1){
