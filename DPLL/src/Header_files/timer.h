@@ -25,13 +25,13 @@ typedef struct {
 	bool			out_pin_1_en;		// enable out 1 route
 	float			period;				// seconds
 	float			active_period;		// seconds
-	bool 			comp0_irq_enable;	// enable interrupt on comp0 interrupt
-	uint32_t 		comp0_evt;
-	bool			comp1_irq_enable;	// enable interrupt on comp1 interrupt
-	uint32_t 		comp1_evt;
-	bool			uf_irq_enable;		// enable interrupt on uf interrupt
-	uint32_t		uf_evt;
-}APP_LETIMER_PWM_TypeDef;
+//	bool 			comp0_irq_enable;	// enable interrupt on comp0 interrupt
+//	uint32_t 		comp0_evt;
+//	bool			comp1_irq_enable;	// enable interrupt on comp1 interrupt
+//	uint32_t 		comp1_evt;
+//	bool			uf_irq_enable;		// enable interrupt on uf interrupt
+//	uint32_t		uf_evt;
+}APP_TIMER_PWM_TypeDef;
 
 
 //***********************************************************************************

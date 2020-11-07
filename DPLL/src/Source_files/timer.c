@@ -1,7 +1,7 @@
 /**
  * @file timer.c
  * @author David Wade
- * @date Novemeber 12th, 2020
+ * @date November 12th, 2020
  * @brief Contains all the TIMER driver functions
  *
  */
@@ -62,13 +62,13 @@
  *
  ******************************************************************************/
 
-void letimer_pwm_open(TIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_letimer_struct){
+void timer_pwm_open(TIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_timer_struct){
 	LETIMER_Init_TypeDef letimer_pwm_values;
 
 
 	/*  Enable the routed clock to the LETIMER0 peripheral */
 	if(letimer == LETIMER0){
-		CMU_ClockEnable(cmuClock_LETIMER0 , true);
+		CMU_ClockEnable(cmuClock_TIMER0 , true);
 		letimer_start(letimer, false);
 	}
 
