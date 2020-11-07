@@ -62,73 +62,87 @@
  *
  ******************************************************************************/
 
-void timer_pwm_open(TIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_timer_struct){
-	LETIMER_Init_TypeDef letimer_pwm_values;
+void timer_pwm_open(TIMER_TypeDef *timer, APP_TIMER_PWM_TypeDef *app_timer_struct){
+	TIMER_Init_TypeDef timer_pwm_values;
 
 
-	/*  Enable the routed clock to the LETIMER0 peripheral */
-	if(letimer == LETIMER0){
+	/*  Enable the routed clock to the TIMER0 peripheral */
+	if(timer == TIMER0){
 		CMU_ClockEnable(cmuClock_TIMER0 , true);
-		letimer_start(letimer, false);
+		letimer_start(timer, false);
 	}
 
 
 	/* Use EFM_ASSERT statements to verify whether the LETIMER clock tree is properly
 	 * configured and enabled
 	 */
-	letimer->CMD = LETIMER_CMD_START;
-	while (letimer->SYNCBUSY);
-	EFM_ASSERT(letimer->STATUS & LETIMER_STATUS_RUNNING);
-	letimer->CMD = LETIMER_CMD_STOP;
+	timer->CMD = TIMER_CMD_START;
+//	while (timer->SYNCBUSY);
+	EFM_ASSERT(timer->STATUS & TIMER_STATUS_RUNNING);
+	timer->CMD = TIMER_CMD_STOP;
 
 
 
 	// Initialize letimer for PWM operation
-	letimer_pwm_values.bufTop = false;		// Comp1 will not be used to load comp0, but used to create an on-time/duty cycle
-	letimer_pwm_values.comp0Top = true;		// load comp0 into cnt register when count register underflows enabling continuous looping
-	letimer_pwm_values.debugRun = app_letimer_struct->debugRun;
-	letimer_pwm_values.enable = app_letimer_struct->enable;
-	letimer_pwm_values.out0Pol = 0;			// While PWM is not active out, idle is DEASSERTED, 0
-	letimer_pwm_values.out1Pol = 0;			// While PWM is not active out, idle is DEASSERTED, 0
-	letimer_pwm_values.repMode = letimerRepeatFree;	// Setup letimer for free running for continuous looping
-	letimer_pwm_values.ufoa0 = letimerUFOAPwm ;		// No action of outputs on underflow
-	letimer_pwm_values.ufoa1 = letimerUFOAPwm ;		// No action of outputs on underflow
+//	letimer_pwm_values.bufTop = false;		// Comp1 will not be used to load comp0, but used to create an on-time/duty cycle
+//	letimer_pwm_values.comp0Top = true;		// load comp0 into cnt register when count register underflows enabling continuous looping
+//	letimer_pwm_values.debugRun = app_letimer_struct->debugRun;
+//	letimer_pwm_values.enable = app_letimer_struct->enable;
+//	letimer_pwm_values.out0Pol = 0;			// While PWM is not active out, idle is DEASSERTED, 0
+//	letimer_pwm_values.out1Pol = 0;			// While PWM is not active out, idle is DEASSERTED, 0
+//	letimer_pwm_values.repMode = letimerRepeatFree;	// Setup letimer for free running for continuous looping
+//	letimer_pwm_values.ufoa0 = letimerUFOAPwm ;		// No action of outputs on underflow
+//	letimer_pwm_values.ufoa1 = letimerUFOAPwm ;		// No action of outputs on underflow
 
-	LETIMER_Init(letimer, &letimer_pwm_values);		// Initialize letimer
-	while(letimer->SYNCBUSY);
+
+	// Will have to modulate... too lazy right now
+	timer_pwm_values.enable = app_timer_struct->enable;
+	timer_pwm_values.debugRun = app_timer_struct->debugRun;
+	timer_pwm_values.oneShot = false;
+	timer_pwm_values.clkSel = timerClkSelHFPerClk;
+	timer_pwm_values.mode = timerModeUp;
+	timer_pwm_values.fallAction = timerInputActionNone;
+	timer_pwm_values.riseAction = timerInputActionNone;
+	timer_pwm_values.prescale = timerPrescale1;
+
+
+
+	TIMER_Init(timer, &timer_pwm_values);		// Initialize timer
+//	while(letimer->SYNCBUSY);
 
 	/* Calculate the value of COMP0 and COMP1 and load these control registers
 	 * with the calculated values
 	 */
-	letimer->COMP0 = app_letimer_struct->period*LETIMER_HZ;
-	letimer->CNT = letimer->COMP0;
-	letimer->COMP1 = app_letimer_struct->active_period*LETIMER_HZ;
+	// TIMER works different than LETIMER
+//	letimer->COMP0 = app_letimer_struct->period*LETIMER_HZ;
+//	letimer->CNT = letimer->COMP0;
+//	letimer->COMP1 = app_letimer_struct->active_period*LETIMER_HZ;
 
 
 	/* Set the REP0 mode bits for PWM operation
 	 *
 	 * Use the values from app_letimer_struct input argument for ROUTELOC0 and ROUTEPEN enable
 	 */
-	letimer->REP0 = 1;
-	letimer->REP1 = 1;
-	letimer->ROUTELOC0 = app_letimer_struct->out_pin_route0;
-	letimer->ROUTEPEN = app_letimer_struct->out_pin_0_en;
+//	letimer->REP0 = 1;
+//	letimer->REP1 = 1;
+//	letimer->ROUTELOC0 = app_letimer_struct->out_pin_route0;
+//	letimer->ROUTEPEN = app_letimer_struct->out_pin_0_en;
 
 
 
 	/* We are not enabling any interrupts at this tie.  If you were, you would enable them now */
 	// clearing flags
-	letimer->IFC = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
-	// enabling interrupts
-	letimer->IEN = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
-	scheduled_comp0_evt = app_letimer_struct->comp0_evt;
-	scheduled_comp1_evt = app_letimer_struct->comp1_evt;
-	scheduled_uf_evt = app_letimer_struct->uf_evt;
-	NVIC_EnableIRQ(LETIMER0_IRQn);
-
-	if((letimer->STATUS & LETIMER_STATUS_RUNNING) != false){
-		letimer_start(letimer, true);
-	}
+//	letimer->IFC = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
+//	// enabling interrupts
+//	letimer->IEN = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
+//	scheduled_comp0_evt = app_letimer_struct->comp0_evt;
+//	scheduled_comp1_evt = app_letimer_struct->comp1_evt;
+//	scheduled_uf_evt = app_letimer_struct->uf_evt;
+//	NVIC_EnableIRQ(LETIMER0_IRQn);
+//
+//	if((letimer->STATUS & LETIMER_STATUS_RUNNING) != false){
+//		letimer_start(letimer, true);
+//	}
 
 	/* We will not able the LETIMER0 at this time */
 
@@ -190,16 +204,16 @@ void TIMER0_IRQHandler(void) {
  *   TIMER
  *
  ******************************************************************************/
-void timer_start(TIMER_TypeDef *letimer, bool enable){
-	LETIMER_Enable(letimer,enable);
-	while(letimer->SYNCBUSY);
+void timer_start(TIMER_TypeDef *timer, bool enable){
+	LETIMER_Enable(timer,enable);
+//	while(letimer->SYNCBUSY);
 	if(enable == true){
-		if((letimer->STATUS & LETIMER_STATUS_RUNNING) == false){
-			sleep_block_mode(LETIMER_EM);
+		if((timer->STATUS & TIMER_STATUS_RUNNING) == false){
+			sleep_block_mode(TIMER_EM);
 		}
 	}
-	if(enable == false && (LETIMER0->STATUS & LETIMER_STATUS_RUNNING) != false){
-		sleep_unblock_mode(LETIMER_EM);
+	if(enable == false && (TIMER0->STATUS & TIMER_STATUS_RUNNING) != false){
+		sleep_unblock_mode(TIMER_EM);
 	}
 }
 
