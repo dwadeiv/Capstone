@@ -1,0 +1,2821 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+                              ./emlib/em_usart.o (__aeabi_uldivmod)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_dvmd_tls.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o (exit)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o (__libc_init_array)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o (memset)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+msTicks             0x4               ./src/blink.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+ .data          0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_bcc.o
+ .text          0x0000000000000000        0x0 ./BSP/bsp_bcc.o
+ .data          0x0000000000000000        0x0 ./BSP/bsp_bcc.o
+ .bss           0x0000000000000000        0x0 ./BSP/bsp_bcc.o
+ .bss.rxByteCount
+                0x0000000000000000        0x4 ./BSP/bsp_bcc.o
+ .bss.txByteCount
+                0x0000000000000000        0x4 ./BSP/bsp_bcc.o
+ .text.BSP_BccDeInit
+                0x0000000000000000       0x40 ./BSP/bsp_bcc.o
+ .rodata        0x0000000000000000       0x1c ./BSP/bsp_bcc.o
+ .text.BSP_BccInit
+                0x0000000000000000       0x74 ./BSP/bsp_bcc.o
+ .text.BSP_BccPacketReceive
+                0x0000000000000000       0xac ./BSP/bsp_bcc.o
+ .text.BSP_BccPacketSend
+                0x0000000000000000       0x68 ./BSP/bsp_bcc.o
+ .text.BSP_BccPinsEnable
+                0x0000000000000000       0x90 ./BSP/bsp_bcc.o
+ .text.RxByte   0x0000000000000000       0x3c ./BSP/bsp_bcc.o
+ .text.TxByte   0x0000000000000000       0x3c ./BSP/bsp_bcc.o
+ .debug_info    0x0000000000000000     0x13e8 ./BSP/bsp_bcc.o
+ .debug_abbrev  0x0000000000000000      0x29b ./BSP/bsp_bcc.o
+ .debug_loc     0x0000000000000000      0x224 ./BSP/bsp_bcc.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./BSP/bsp_bcc.o
+ .debug_ranges  0x0000000000000000       0x40 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x3f3 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xa4e ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x52 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x17 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x55 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x9c ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x16d ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x57 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x58 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x1f ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x43 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x20 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x18e ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x353 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x5c8 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xef ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x6a ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x1df ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x1c ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xd9 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xff5 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xe2 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x12b5 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x3006 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x34c ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x4214 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x1b58 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x3243 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2922 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x3445 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2f71 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x269d ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x27d9 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x1181 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x344 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x29d ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xda8 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2078 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2c38 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x1850 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x113b ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xd3a ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x249 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xf9a ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x1365 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x3e07 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x22ba ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2b5d ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x4a80 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x7b4 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x17a8 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xca4 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x1ea ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x109d ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x76b ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x1021 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0xd60 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x4ff ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x26c3 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x40 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x433 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x556 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x2bd ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x20a3 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000     0x2c10 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xea ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x69 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000      0x361 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xd6 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x76 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0xf1 ./BSP/bsp_bcc.o
+ .debug_macro   0x0000000000000000       0x3a ./BSP/bsp_bcc.o
+ .debug_line    0x0000000000000000      0xd2f ./BSP/bsp_bcc.o
+ .debug_str     0x0000000000000000   0x1e3669 ./BSP/bsp_bcc.o
+ .comment       0x0000000000000000       0x7f ./BSP/bsp_bcc.o
+ .debug_frame   0x0000000000000000      0x114 ./BSP/bsp_bcc.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./BSP/bsp_bcc.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk.o
+ .text          0x0000000000000000        0x0 ./BSP/bsp_stk.o
+ .data          0x0000000000000000        0x0 ./BSP/bsp_stk.o
+ .bss           0x0000000000000000        0x0 ./BSP/bsp_stk.o
+ .text.BSP_Disable
+                0x0000000000000000       0x12 ./BSP/bsp_stk.o
+ .text.BSP_EbiInit
+                0x0000000000000000       0x12 ./BSP/bsp_stk.o
+ .text.BSP_EbiDeInit
+                0x0000000000000000       0x12 ./BSP/bsp_stk.o
+ .text.BSP_IOExpGetDeviceId
+                0x0000000000000000       0x10 ./BSP/bsp_stk.o
+ .text.BSP_Init
+                0x0000000000000000       0x20 ./BSP/bsp_stk.o
+ .text.BSP_PeripheralAccess
+                0x0000000000000000       0x5e ./BSP/bsp_stk.o
+ .text.BSP_CurrentGet
+                0x0000000000000000       0x44 ./BSP/bsp_stk.o
+ .text.BSP_VoltageGet
+                0x0000000000000000       0x44 ./BSP/bsp_stk.o
+ .debug_info    0x0000000000000000      0xcf7 ./BSP/bsp_stk.o
+ .debug_abbrev  0x0000000000000000      0x246 ./BSP/bsp_stk.o
+ .debug_loc     0x0000000000000000      0x23c ./BSP/bsp_stk.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./BSP/bsp_stk.o
+ .debug_ranges  0x0000000000000000       0x48 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x3f3 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xa4e ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x52 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x17 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x55 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x9c ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x16d ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x57 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x58 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x1f ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x43 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x20 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x18e ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x353 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x5c8 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xef ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x6a ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x1df ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x1c ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xd9 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xff5 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xe2 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x12b5 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x3006 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x34c ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x4214 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x1b58 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x3243 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2922 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x3445 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2f71 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x269d ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x27d9 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x1181 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x344 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x29d ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xda8 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2078 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2c38 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x1850 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x113b ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xd3a ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x249 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xf9a ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x1365 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x3e07 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x22ba ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2b5d ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x4a80 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x7b4 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x17a8 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xca4 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x1ea ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x109d ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x76b ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x1021 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0xd60 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x4ff ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x26c3 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x40 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x433 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x556 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x2bd ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x20a3 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000     0x2c10 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xea ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x69 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000      0x361 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xd6 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x76 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0xf1 ./BSP/bsp_stk.o
+ .debug_macro   0x0000000000000000       0x3a ./BSP/bsp_stk.o
+ .debug_line    0x0000000000000000      0xcef ./BSP/bsp_stk.o
+ .debug_str     0x0000000000000000   0x1e2e0f ./BSP/bsp_stk.o
+ .comment       0x0000000000000000       0x7f ./BSP/bsp_stk.o
+ .debug_frame   0x0000000000000000      0x11c ./BSP/bsp_stk.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./BSP/bsp_stk.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_stk_leds.o
+ .text          0x0000000000000000        0x0 ./BSP/bsp_stk_leds.o
+ .data          0x0000000000000000        0x0 ./BSP/bsp_stk_leds.o
+ .bss           0x0000000000000000        0x0 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedsGet
+                0x0000000000000000       0x50 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedsSet
+                0x0000000000000000       0x4a ./BSP/bsp_stk_leds.o
+ .text.BSP_LedClear
+                0x0000000000000000       0x2c ./BSP/bsp_stk_leds.o
+ .text.BSP_LedGet
+                0x0000000000000000       0x38 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedSet
+                0x0000000000000000       0x2e ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xa4e ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x5c8 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0xef ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x6a ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x1df ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x1c ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xff5 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0xe2 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x12b5 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x3006 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x34c ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x4214 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x1b58 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x3243 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2922 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x3445 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2f71 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x269d ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x27d9 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x1181 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x344 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x29d ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xda8 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2078 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2c38 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x1850 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x113b ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xd3a ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x249 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xf9a ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x1365 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x3e07 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x22ba ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2b5d ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x4a80 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x7b4 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x17a8 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xca4 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x1ea ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x109d ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x76b ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x1021 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0xd60 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x4ff ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x26c3 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x40 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x433 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x556 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x2bd ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x20a3 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000     0x2c10 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0xea ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x69 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000      0x361 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0xd6 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x76 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0xf1 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000000       0x3a ./BSP/bsp_stk_leds.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .group         0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .text          0x0000000000000000        0x0 ./BSP/bsp_trace.o
+ .data          0x0000000000000000        0x0 ./BSP/bsp_trace.o
+ .bss           0x0000000000000000        0x0 ./BSP/bsp_trace.o
+ .text.BSP_TraceEtmSetup
+                0x0000000000000000       0x90 ./BSP/bsp_trace.o
+ .text.BSP_TraceSwoSetup
+                0x0000000000000000        0xc ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xa4e ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x5c8 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x4f ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x51 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0xef ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x6a ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x1df ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x1c ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x22 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0xdf ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xff5 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0xe2 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x12b5 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x3006 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x34c ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x4214 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x1b58 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x3243 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2922 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x3445 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2f71 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x269d ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x27d9 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x1181 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x344 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x29d ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xda8 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2078 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2c38 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x1850 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x113b ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xd3a ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x249 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xf9a ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x1365 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x3e07 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x22ba ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2b5d ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x4a80 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x7b4 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x17a8 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xca4 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x1ea ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x109d ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x76b ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x1021 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0xd60 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x4ff ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x26c3 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x40 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x433 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x556 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x2bd ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x20a3 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000     0x2c10 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x35 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x915 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x10 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x69 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000      0x361 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0xd6 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x76 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0xf1 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000000       0x3a ./BSP/bsp_trace.o
+ .data          0x0000000000000000        0x0 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .bss           0x0000000000000000        0x0 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .text          0x0000000000000000        0x0 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .data          0x0000000000000000        0x0 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .bss           0x0000000000000000        0x0 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .data.SystemCoreClock
+                0x0000000000000000        0x4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .text.SystemCoreClockGet
+                0x0000000000000000       0x40 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .text.SystemMaxCoreClockGet
+                0x0000000000000000       0x14 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .text.SystemHFXOClockSet
+                0x0000000000000000       0x30 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .text.SystemLFXOClockSet
+                0x0000000000000000       0x30 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xa4e ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x22 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x4f ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x51 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0xef ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x6a ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x1df ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x5c8 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x1c ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x22 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0xdf ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xff5 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0xe2 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x12b5 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x3006 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x34c ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x4214 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x1b58 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x3243 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2922 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x3445 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2f71 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x269d ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x27d9 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x1181 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x344 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x29d ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xda8 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2078 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2c38 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x1850 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x113b ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xd3a ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x249 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xf9a ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x1365 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x3e07 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x22ba ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2b5d ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x4a80 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x7b4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x17a8 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xca4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x1ea ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x109d ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x76b ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x1021 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0xd60 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x4ff ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x26c3 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x40 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x433 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x556 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x2bd ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x20a3 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000     0x2c10 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000       0x35 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x915 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000000      0x915 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .group         0x0000000000000000        0xc ./emlib/em_assert.o
+ .group         0x0000000000000000        0xc ./emlib/em_assert.o
+ .group         0x0000000000000000        0xc ./emlib/em_assert.o
+ .text          0x0000000000000000        0x0 ./emlib/em_assert.o
+ .data          0x0000000000000000        0x0 ./emlib/em_assert.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_assert.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_assert.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_assert.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_assert.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_cmu.o
+ .text          0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .data          0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .text.BUS_RegBitRead
+                0x0000000000000000       0x2a ./emlib/em_cmu.o
+ .text.BUS_RegMaskedSet
+                0x0000000000000000       0x24 ./emlib/em_cmu.o
+ .text.BUS_RegMaskedClear
+                0x0000000000000000       0x24 ./emlib/em_cmu.o
+ .text.CMU_PrescToLog2
+                0x0000000000000000       0x54 ./emlib/em_cmu.o
+ .text.EMU_LDOStatusGet
+                0x0000000000000000       0x24 ./emlib/em_cmu.o
+ .text.EMU_VScaleWait
+                0x0000000000000000       0x30 ./emlib/em_cmu.o
+ .text.EMU_VScaleGet
+                0x0000000000000000       0x1c ./emlib/em_cmu.o
+ .rodata.hfrcoCtrlTable
+                0x0000000000000000      0x180 ./emlib/em_cmu.o
+ .rodata.flashWsTable
+                0x0000000000000000       0x38 ./emlib/em_cmu.o
+ .text.setHfLeConfig
+                0x0000000000000000       0x64 ./emlib/em_cmu.o
+ .text.flashWaitStateControl
+                0x0000000000000000       0x98 ./emlib/em_cmu.o
+ .text.flashWaitStateMax
+                0x0000000000000000       0x44 ./emlib/em_cmu.o
+ .text.setRamWaitState
+                0x0000000000000000       0x4c ./emlib/em_cmu.o
+ .text.setBusWaitState
+                0x0000000000000000       0x40 ./emlib/em_cmu.o
+ .text.CMU_UpdateWaitStates
+                0x0000000000000000       0x52 ./emlib/em_cmu.o
+ .text.getHfxoTuningMode
+                0x0000000000000000       0x1c ./emlib/em_cmu.o
+ .text.setHfxoTuningMode
+                0x0000000000000000       0x2c ./emlib/em_cmu.o
+ .text.hfperClkSafePrescaler
+                0x0000000000000000       0x2c ./emlib/em_cmu.o
+ .text.hfperClkOptimizedPrescaler
+                0x0000000000000000       0xc8 ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCODevinfoGet
+                0x0000000000000000      0x100 ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandGet
+                0x0000000000000000       0x18 ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandSet
+                0x0000000000000000       0xa4 ./emlib/em_cmu.o
+ .text.CMU_Calibrate
+                0x0000000000000000       0xb8 ./emlib/em_cmu.o
+ .text.CMU_CalibrateConfig
+                0x0000000000000000      0x11c ./emlib/em_cmu.o
+ .text.CMU_CalibrateCountGet
+                0x0000000000000000       0x38 ./emlib/em_cmu.o
+ .text.CMU_ClockDivGet
+                0x0000000000000000       0x1a ./emlib/em_cmu.o
+ .text.CMU_ClockDivSet
+                0x0000000000000000       0x1e ./emlib/em_cmu.o
+ .text.CMU_ClockPrescGet
+                0x0000000000000000      0x2d8 ./emlib/em_cmu.o
+ .text.CMU_ClockPrescSet
+                0x0000000000000000      0x554 ./emlib/em_cmu.o
+ .text.CMU_ClockSelectSet
+                0x0000000000000000      0x61c ./emlib/em_cmu.o
+ .text.CMU_DPLLLock
+                0x0000000000000000      0x2d8 ./emlib/em_cmu.o
+ .text.CMU_FreezeEnable
+                0x0000000000000000       0x40 ./emlib/em_cmu.o
+ .text.CMU_HFRCODevinfoGet
+                0x0000000000000000      0x124 ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandGet
+                0x0000000000000000       0x18 ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandSet
+                0x0000000000000000      0x180 ./emlib/em_cmu.o
+ .text.CMU_USHFRCODevinfoGet
+                0x0000000000000000       0x70 ./emlib/em_cmu.o
+ .text.CMU_USHFRCOBandGet
+                0x0000000000000000       0x18 ./emlib/em_cmu.o
+ .text.CMU_USHFRCOFreqGet
+                0x0000000000000000       0x18 ./emlib/em_cmu.o
+ .text.CMU_USHFRCOBandSet
+                0x0000000000000000       0x5c ./emlib/em_cmu.o
+ .text.CMU_HFXOAutostartEnable
+                0x0000000000000000       0xc8 ./emlib/em_cmu.o
+ .text.CMU_HFXOInit
+                0x0000000000000000       0xec ./emlib/em_cmu.o
+ .text.CMU_LCDClkFDIVGet
+                0x0000000000000000       0x10 ./emlib/em_cmu.o
+ .text.CMU_LCDClkFDIVSet
+                0x0000000000000000       0x14 ./emlib/em_cmu.o
+ .text.CMU_LFXOInit
+                0x0000000000000000       0x74 ./emlib/em_cmu.o
+ .text.CMU_OscillatorEnable
+                0x0000000000000000      0x1cc ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningGet
+                0x0000000000000000       0x80 ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningSet
+                0x0000000000000000      0x140 ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningWait
+                0x0000000000000000       0x78 ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningOptimize
+                0x0000000000000000       0x5c ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalGet
+                0x0000000000000000       0x64 ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalSet
+                0x0000000000000000       0x4c ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x4f ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0xdf ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0xea ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000       0x69 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x361 ./emlib/em_cmu.o
+ .debug_macro   0x0000000000000000      0x16d ./emlib/em_cmu.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_ebi.o
+ .text          0x0000000000000000        0x0 ./emlib/em_ebi.o
+ .data          0x0000000000000000        0x0 ./emlib/em_ebi.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_ebi.o
+ .text.EBI_TFTFrameBaseSet
+                0x0000000000000000       0x20 ./emlib/em_ebi.o
+ .text.BUS_RegBitWrite
+                0x0000000000000000       0x2e ./emlib/em_ebi.o
+ .text.EBI_RouteBitWrite
+                0x0000000000000000       0x20 ./emlib/em_ebi.o
+ .text.EBI_Init
+                0x0000000000000000      0x354 ./emlib/em_ebi.o
+ .text.EBI_Disable
+                0x0000000000000000       0x20 ./emlib/em_ebi.o
+ .text.EBI_BankEnable
+                0x0000000000000000       0x70 ./emlib/em_ebi.o
+ .rodata        0x0000000000000000       0x75 ./emlib/em_ebi.o
+ .text.EBI_BankAddress
+                0x0000000000000000      0x104 ./emlib/em_ebi.o
+ .text.EBI_NANDFlashEnable
+                0x0000000000000000       0x74 ./emlib/em_ebi.o
+ .text.EBI_ChipSelectEnable
+                0x0000000000000000       0x64 ./emlib/em_ebi.o
+ .text.EBI_PolaritySet
+                0x0000000000000000      0x104 ./emlib/em_ebi.o
+ .text.EBI_ReadTimingSet
+                0x0000000000000000       0x70 ./emlib/em_ebi.o
+ .text.EBI_WriteTimingSet
+                0x0000000000000000       0x70 ./emlib/em_ebi.o
+ .text.EBI_AddressTimingSet
+                0x0000000000000000       0x58 ./emlib/em_ebi.o
+ .text.EBI_TFTInit
+                0x0000000000000000      0x10c ./emlib/em_ebi.o
+ .text.EBI_TFTSizeSet
+                0x0000000000000000       0x54 ./emlib/em_ebi.o
+ .text.EBI_TFTHPorchSet
+                0x0000000000000000       0x64 ./emlib/em_ebi.o
+ .text.EBI_TFTVPorchSet
+                0x0000000000000000       0x68 ./emlib/em_ebi.o
+ .text.EBI_TFTTimingSet
+                0x0000000000000000       0x7c ./emlib/em_ebi.o
+ .text.EBI_BankReadTimingConfig
+                0x0000000000000000      0x104 ./emlib/em_ebi.o
+ .text.EBI_BankReadTimingSet
+                0x0000000000000000       0xec ./emlib/em_ebi.o
+ .text.EBI_BankWriteTimingConfig
+                0x0000000000000000       0xc8 ./emlib/em_ebi.o
+ .text.EBI_BankWriteTimingSet
+                0x0000000000000000       0xec ./emlib/em_ebi.o
+ .text.EBI_BankAddressTimingConfig
+                0x0000000000000000       0x94 ./emlib/em_ebi.o
+ .text.EBI_BankAddressTimingSet
+                0x0000000000000000       0xd4 ./emlib/em_ebi.o
+ .text.EBI_BankPolaritySet
+                0x0000000000000000      0x188 ./emlib/em_ebi.o
+ .text.EBI_BankByteLaneEnable
+                0x0000000000000000       0x88 ./emlib/em_ebi.o
+ .text.EBI_AltMapEnable
+                0x0000000000000000       0x24 ./emlib/em_ebi.o
+ .debug_info    0x0000000000000000     0x120a ./emlib/em_ebi.o
+ .debug_abbrev  0x0000000000000000      0x24d ./emlib/em_ebi.o
+ .debug_loc     0x0000000000000000      0x87c ./emlib/em_ebi.o
+ .debug_aranges
+                0x0000000000000000       0xf0 ./emlib/em_ebi.o
+ .debug_ranges  0x0000000000000000       0xe0 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x354 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x4f ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0xdf ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_ebi.o
+ .debug_macro   0x0000000000000000       0xff ./emlib/em_ebi.o
+ .debug_line    0x0000000000000000      0xf45 ./emlib/em_ebi.o
+ .debug_str     0x0000000000000000   0x1deb81 ./emlib/em_ebi.o
+ .comment       0x0000000000000000       0x7f ./emlib/em_ebi.o
+ .debug_frame   0x0000000000000000      0x3e4 ./emlib/em_ebi.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./emlib/em_ebi.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_emu.o
+ .text          0x0000000000000000        0x0 ./emlib/em_emu.o
+ .data          0x0000000000000000        0x0 ./emlib/em_emu.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_emu.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000        0xc ./emlib/em_emu.o
+ .text.BUS_RegMaskedSet
+                0x0000000000000000       0x24 ./emlib/em_emu.o
+ .text.BUS_RegMaskedClear
+                0x0000000000000000       0x24 ./emlib/em_emu.o
+ .text.EMU_LDOStatusGet
+                0x0000000000000000       0x24 ./emlib/em_emu.o
+ .text.EMU_VScaleWait
+                0x0000000000000000       0x30 ./emlib/em_emu.o
+ .text.EMU_VScaleGet
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .text.EMU_Unlock
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .text.CMU_Lock
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .text.CMU_Unlock
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .bss.vScaleEM01Config
+                0x0000000000000000        0x1 ./emlib/em_emu.o
+ .text.vScaleEM01Cmd
+                0x0000000000000000       0x22 ./emlib/em_emu.o
+ .text.emState  0x0000000000000000      0x168 ./emlib/em_emu.o
+ .text.vScaleDownEM23Setup
+                0x0000000000000000       0x74 ./emlib/em_emu.o
+ .text.vScaleAfterWakeup
+                0x0000000000000000       0x48 ./emlib/em_emu.o
+ .text.EMU_EM23PresleepHook
+                0x0000000000000000        0xe ./emlib/em_emu.o
+ .text.EMU_EM23PostsleepHook
+                0x0000000000000000        0xe ./emlib/em_emu.o
+ .text.EMU_EnterEM2
+                0x0000000000000000       0x60 ./emlib/em_emu.o
+ .text.EMU_EnterEM3
+                0x0000000000000000       0x84 ./emlib/em_emu.o
+ .text.EMU_Save
+                0x0000000000000000        0xe ./emlib/em_emu.o
+ .text.EMU_Restore
+                0x0000000000000000        0xe ./emlib/em_emu.o
+ .text.EMU_EnterEM4
+                0x0000000000000000       0xc4 ./emlib/em_emu.o
+ .text.EMU_EnterEM4H
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .text.EMU_EnterEM4S
+                0x0000000000000000       0x1c ./emlib/em_emu.o
+ .text.EMU_MemPwrDown
+                0x0000000000000000       0x24 ./emlib/em_emu.o
+ .text.EMU_RamPowerDown
+                0x0000000000000000      0x11c ./emlib/em_emu.o
+ .text.EMU_RamPowerUp
+                0x0000000000000000       0x28 ./emlib/em_emu.o
+ .text.EMU_PeripheralRetention
+                0x0000000000000000       0x40 ./emlib/em_emu.o
+ .text.EMU_UpdateOscConfig
+                0x0000000000000000        0xe ./emlib/em_emu.o
+ .text.EMU_VScaleEM01ByClock
+                0x0000000000000000       0x84 ./emlib/em_emu.o
+ .text.EMU_VScaleEM01
+                0x0000000000000000       0xb4 ./emlib/em_emu.o
+ .text.EMU_EM01Init
+                0x0000000000000000       0x24 ./emlib/em_emu.o
+ .text.EMU_EM23Init
+                0x0000000000000000       0x50 ./emlib/em_emu.o
+ .text.EMU_EM4Init
+                0x0000000000000000       0x8c ./emlib/em_emu.o
+ .text.EMU_BUInit
+                0x0000000000000000       0x88 ./emlib/em_emu.o
+ .text.EMU_BUDisMaxCompSet
+                0x0000000000000000       0x3c ./emlib/em_emu.o
+ .text.EMU_BUBuInactPwrConSet
+                0x0000000000000000       0x34 ./emlib/em_emu.o
+ .text.EMU_BUBuActPwrConSet
+                0x0000000000000000       0x34 ./emlib/em_emu.o
+ .text.EMU_BUPwrResSet
+                0x0000000000000000       0x38 ./emlib/em_emu.o
+ .text.EMU_BUVoutResSet
+                0x0000000000000000       0x38 ./emlib/em_emu.o
+ .text.EMU_BUBuVinProbeEnSet
+                0x0000000000000000       0x3c ./emlib/em_emu.o
+ .text.EMU_BUStatEnSet
+                0x0000000000000000       0x3c ./emlib/em_emu.o
+ .text.EMU_BUEnableSet
+                0x0000000000000000       0x38 ./emlib/em_emu.o
+ .text.EMU_DCDCConductionModeSet
+                0x0000000000000000       0xc4 ./emlib/em_emu.o
+ .text.EMU_DCDCPowerOff
+                0x0000000000000000       0x58 ./emlib/em_emu.o
+ .text.vmonCalibratedThreshold
+                0x0000000000000000      0x238 ./emlib/em_emu.o
+ .text.EMU_VmonInit
+                0x0000000000000000      0x26c ./emlib/em_emu.o
+ .text.EMU_VmonHystInit
+                0x0000000000000000      0x134 ./emlib/em_emu.o
+ .text.EMU_VmonEnable
+                0x0000000000000000       0xac ./emlib/em_emu.o
+ .text.EMU_VmonChannelStatusGet
+                0x0000000000000000       0x88 ./emlib/em_emu.o
+ .bss.cmuStatus.8572
+                0x0000000000000000        0x4 ./emlib/em_emu.o
+ .bss.hfClock.8573
+                0x0000000000000000        0x1 ./emlib/em_emu.o
+ .bss.vScaleStatus.8574
+                0x0000000000000000        0x1 ./emlib/em_emu.o
+ .bss.hfrcoCtrl.8575
+                0x0000000000000000        0x4 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x52 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x55 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x16d ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x353 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x25 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0xee ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0xd9 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0xea ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000       0x69 ./emlib/em_emu.o
+ .debug_macro   0x0000000000000000      0x361 ./emlib/em_emu.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_gpio.o
+ .text          0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .data          0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .text.BUS_RegBitWrite
+                0x0000000000000000       0x2e ./emlib/em_gpio.o
+ .text.BUS_RegMaskedWrite
+                0x0000000000000000       0x24 ./emlib/em_gpio.o
+ .text.GPIO_EM4SetPinRetention
+                0x0000000000000000       0x50 ./emlib/em_gpio.o
+ .text.GPIO_IntClear
+                0x0000000000000000       0x20 ./emlib/em_gpio.o
+ .text.GPIO_DbgLocationSet
+                0x0000000000000000       0x3c ./emlib/em_gpio.o
+ .text.GPIO_DriveStrengthSet
+                0x0000000000000000       0x80 ./emlib/em_gpio.o
+ .text.GPIO_ExtIntConfig
+                0x0000000000000000      0x19c ./emlib/em_gpio.o
+ .text.GPIO_PinModeGet
+                0x0000000000000000       0xf4 ./emlib/em_gpio.o
+ .text.GPIO_EM4EnablePinWakeup
+                0x0000000000000000       0x88 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x4f ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0xdf ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_gpio.o
+ .debug_macro   0x0000000000000000       0xe4 ./emlib/em_gpio.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_system.o
+ .text          0x0000000000000000        0x0 ./emlib/em_system.o
+ .data          0x0000000000000000        0x0 ./emlib/em_system.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_system.o
+ .rodata        0x0000000000000000       0x78 ./emlib/em_system.o
+ .text.SYSTEM_ChipRevisionGet
+                0x0000000000000000       0x88 ./emlib/em_system.o
+ .text.SYSTEM_GetCalibrationValue
+                0x0000000000000000       0x58 ./emlib/em_system.o
+ .debug_info    0x0000000000000000      0x2e3 ./emlib/em_system.o
+ .debug_abbrev  0x0000000000000000      0x153 ./emlib/em_system.o
+ .debug_loc     0x0000000000000000       0xac ./emlib/em_system.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./emlib/em_system.o
+ .debug_ranges  0x0000000000000000       0x18 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x2fc ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x4f ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0xdf ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_system.o
+ .debug_macro   0x0000000000000000      0x16d ./emlib/em_system.o
+ .debug_line    0x0000000000000000      0xab9 ./emlib/em_system.o
+ .debug_str     0x0000000000000000   0x1dd8bf ./emlib/em_system.o
+ .comment       0x0000000000000000       0x7f ./emlib/em_system.o
+ .debug_frame   0x0000000000000000       0x5c ./emlib/em_system.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./emlib/em_system.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./emlib/em_usart.o
+ .text          0x0000000000000000        0x0 ./emlib/em_usart.o
+ .data          0x0000000000000000        0x0 ./emlib/em_usart.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_usart.o
+ .text.prsRxInput
+                0x0000000000000000       0x26 ./emlib/em_usart.o
+ .text.prsIrInput
+                0x0000000000000000       0x2a ./emlib/em_usart.o
+ .text.prsTriggerInput
+                0x0000000000000000       0x2a ./emlib/em_usart.o
+ .rodata        0x0000000000000000       0x77 ./emlib/em_usart.o
+ .text.USART_BaudrateAsyncSet
+                0x0000000000000000      0x158 ./emlib/em_usart.o
+ .text.USART_BaudrateCalc
+                0x0000000000000000      0x130 ./emlib/em_usart.o
+ .text.USART_BaudrateGet
+                0x0000000000000000       0x68 ./emlib/em_usart.o
+ .text.USART_BaudrateSyncSet
+                0x0000000000000000       0x88 ./emlib/em_usart.o
+ .text.USART_Enable
+                0x0000000000000000       0xa0 ./emlib/em_usart.o
+ .text.USART_InitAsync
+                0x0000000000000000      0x128 ./emlib/em_usart.o
+ .text.USART_InitSync
+                0x0000000000000000      0x128 ./emlib/em_usart.o
+ .text.USARTn_InitIrDA
+                0x0000000000000000       0xa0 ./emlib/em_usart.o
+ .text.USART_InitI2s
+                0x0000000000000000       0xb0 ./emlib/em_usart.o
+ .text.USART_InitPrsTrigger
+                0x0000000000000000       0x5e ./emlib/em_usart.o
+ .text.USART_Reset
+                0x0000000000000000      0x104 ./emlib/em_usart.o
+ .text.USART_Rx
+                0x0000000000000000       0x28 ./emlib/em_usart.o
+ .text.USART_RxDouble
+                0x0000000000000000       0x28 ./emlib/em_usart.o
+ .text.USART_RxDoubleExt
+                0x0000000000000000       0x26 ./emlib/em_usart.o
+ .text.USART_RxExt
+                0x0000000000000000       0x28 ./emlib/em_usart.o
+ .text.USART_SpiTransfer
+                0x0000000000000000       0x40 ./emlib/em_usart.o
+ .text.USART_Tx
+                0x0000000000000000       0x2c ./emlib/em_usart.o
+ .text.USART_TxDouble
+                0x0000000000000000       0x2c ./emlib/em_usart.o
+ .text.USART_TxDoubleExt
+                0x0000000000000000       0x2a ./emlib/em_usart.o
+ .text.USART_TxExt
+                0x0000000000000000       0x2c ./emlib/em_usart.o
+ .debug_info    0x0000000000000000     0x11af ./emlib/em_usart.o
+ .debug_abbrev  0x0000000000000000      0x239 ./emlib/em_usart.o
+ .debug_loc     0x0000000000000000      0x7c2 ./emlib/em_usart.o
+ .debug_aranges
+                0x0000000000000000       0xd0 ./emlib/em_usart.o
+ .debug_ranges  0x0000000000000000       0xc0 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x356 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xa4e ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x5c8 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x4f ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x51 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0xef ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x6a ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x1df ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x1c ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0xdf ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xff5 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0xe2 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x12b5 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x3006 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x34c ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x4214 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x1b58 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x3243 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2922 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x3445 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2f71 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x269d ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x27d9 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x1181 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x344 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x29d ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xda8 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2078 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2c38 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x1850 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x113b ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xd3a ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x249 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xf9a ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x1365 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x3e07 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x22ba ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2b5d ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x4a80 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x7b4 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x17a8 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xca4 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x1ea ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x109d ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x76b ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x1021 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0xd60 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x4ff ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x26c3 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x40 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x433 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x556 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x2bd ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x20a3 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000     0x2c10 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x35 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x915 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x22 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0xeb ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x10 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0xea ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000       0x69 ./emlib/em_usart.o
+ .debug_macro   0x0000000000000000      0x361 ./emlib/em_usart.o
+ .debug_line    0x0000000000000000      0xeda ./emlib/em_usart.o
+ .debug_str     0x0000000000000000   0x1e01cf ./emlib/em_usart.o
+ .comment       0x0000000000000000       0x7f ./emlib/em_usart.o
+ .debug_frame   0x0000000000000000      0x380 ./emlib/em_usart.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./emlib/em_usart.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .group         0x0000000000000000        0xc ./src/blink.o
+ .text          0x0000000000000000        0x0 ./src/blink.o
+ .data          0x0000000000000000        0x0 ./src/blink.o
+ .bss           0x0000000000000000        0x0 ./src/blink.o
+ .debug_macro   0x0000000000000000      0xa4e ./src/blink.o
+ .debug_macro   0x0000000000000000       0x22 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x4f ./src/blink.o
+ .debug_macro   0x0000000000000000       0x51 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xef ./src/blink.o
+ .debug_macro   0x0000000000000000       0x6a ./src/blink.o
+ .debug_macro   0x0000000000000000      0x1df ./src/blink.o
+ .debug_macro   0x0000000000000000       0x22 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x5c8 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x1c ./src/blink.o
+ .debug_macro   0x0000000000000000       0x22 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xdf ./src/blink.o
+ .debug_macro   0x0000000000000000      0xff5 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xe2 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x12b5 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x3006 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x34c ./src/blink.o
+ .debug_macro   0x0000000000000000     0x4214 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x1b58 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x3243 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2922 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x3445 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2f71 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x269d ./src/blink.o
+ .debug_macro   0x0000000000000000     0x27d9 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x1181 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x344 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x29d ./src/blink.o
+ .debug_macro   0x0000000000000000      0xda8 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2078 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2c38 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x1850 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x113b ./src/blink.o
+ .debug_macro   0x0000000000000000      0xd3a ./src/blink.o
+ .debug_macro   0x0000000000000000      0x249 ./src/blink.o
+ .debug_macro   0x0000000000000000      0xf9a ./src/blink.o
+ .debug_macro   0x0000000000000000     0x1365 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x3e07 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x22ba ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2b5d ./src/blink.o
+ .debug_macro   0x0000000000000000     0x4a80 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x7b4 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x17a8 ./src/blink.o
+ .debug_macro   0x0000000000000000      0xca4 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x1ea ./src/blink.o
+ .debug_macro   0x0000000000000000     0x109d ./src/blink.o
+ .debug_macro   0x0000000000000000      0x76b ./src/blink.o
+ .debug_macro   0x0000000000000000     0x1021 ./src/blink.o
+ .debug_macro   0x0000000000000000      0xd60 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x4ff ./src/blink.o
+ .debug_macro   0x0000000000000000     0x26c3 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x40 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x433 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x556 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x2bd ./src/blink.o
+ .debug_macro   0x0000000000000000     0x20a3 ./src/blink.o
+ .debug_macro   0x0000000000000000     0x2c10 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x35 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x915 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x915 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x10 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xe4 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x69 ./src/blink.o
+ .debug_macro   0x0000000000000000      0x361 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x87 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xd6 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x76 ./src/blink.o
+ .debug_macro   0x0000000000000000       0xf1 ./src/blink.o
+ .debug_macro   0x0000000000000000       0x3a ./src/blink.o
+ .debug_macro   0x0000000000000000       0x22 ./src/blink.o
+ .text          0x0000000000000000       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000000       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000      0x2cc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000000000       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_udivmoddi4.o)
+ .text          0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000200000 xr
+RAM              0x0000000020000000 0x0000000000080000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+LOAD ./BSP/bsp_bcc.o
+LOAD ./BSP/bsp_stk.o
+LOAD ./BSP/bsp_stk_leds.o
+LOAD ./BSP/bsp_trace.o
+LOAD ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+LOAD ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+LOAD ./emlib/em_assert.o
+LOAD ./emlib/em_cmu.o
+LOAD ./emlib/em_ebi.o
+LOAD ./emlib/em_emu.o
+LOAD ./emlib/em_gpio.o
+LOAD ./emlib/em_system.o
+LOAD ./emlib/em_usart.o
+LOAD ./src/blink.o
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a
+END GROUP
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libg_nano.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a
+END GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+
+.text           0x0000000000000000     0x2c84
+ *(.vectors)
+ .vectors       0x0000000000000000      0x150 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+                0x0000000000000000                __Vectors
+                0x0000000000000150                __Vectors_End = .
+                0x0000000000000150                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x0000000000000150                __end__ = .
+ *(.text*)
+ .text          0x0000000000000150       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .text          0x0000000000000190       0x74 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+                0x0000000000000190                _mainCRTStartup
+                0x0000000000000190                _start
+ .text.BUS_RegBitRead
+                0x0000000000000204       0x2a ./BSP/bsp_stk_leds.o
+ .text.BUS_RegMaskedSet
+                0x000000000000022e       0x24 ./BSP/bsp_stk_leds.o
+ .text.BUS_RegMaskedClear
+                0x0000000000000252       0x24 ./BSP/bsp_stk_leds.o
+ *fill*         0x0000000000000276        0x2 
+ .text.GPIO_PinOutClear
+                0x0000000000000278       0xc0 ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutGet
+                0x0000000000000338       0xbc ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutSet
+                0x00000000000003f4       0xc0 ./BSP/bsp_stk_leds.o
+ .text.BSP_ExtLedGet
+                0x00000000000004b4       0xbc ./BSP/bsp_stk_leds.o
+                0x00000000000004b4                BSP_ExtLedGet
+ .text.BSP_ExtLedSet
+                0x0000000000000570       0xec ./BSP/bsp_stk_leds.o
+                0x0000000000000570                BSP_ExtLedSet
+ .text.BSP_LedsInit
+                0x000000000000065c       0xb4 ./BSP/bsp_stk_leds.o
+                0x000000000000065c                BSP_LedsInit
+ .text.BSP_LedToggle
+                0x0000000000000710       0x42 ./BSP/bsp_stk_leds.o
+                0x0000000000000710                BSP_LedToggle
+ *fill*         0x0000000000000752        0x2 
+ .text.BSP_TraceProfilerSetup
+                0x0000000000000754      0x120 ./BSP/bsp_trace.o
+                0x0000000000000754                BSP_TraceProfilerSetup
+ .text          0x0000000000000874       0x30 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+                0x0000000000000874                Reset_Handler
+                0x00000000000008a0                TIMER5_IRQHandler
+                0x00000000000008a0                DebugMon_Handler
+                0x00000000000008a0                USART0_TX_IRQHandler
+                0x00000000000008a0                USART5_RX_IRQHandler
+                0x00000000000008a0                I2C0_IRQHandler
+                0x00000000000008a0                HardFault_Handler
+                0x00000000000008a0                LEUART1_IRQHandler
+                0x00000000000008a0                SDIO_IRQHandler
+                0x00000000000008a0                USART1_RX_IRQHandler
+                0x00000000000008a0                PendSV_Handler
+                0x00000000000008a0                NMI_Handler
+                0x00000000000008a0                I2C1_IRQHandler
+                0x00000000000008a0                CAN1_IRQHandler
+                0x00000000000008a0                WTIMER0_IRQHandler
+                0x00000000000008a0                WTIMER3_IRQHandler
+                0x00000000000008a0                CRYPTO0_IRQHandler
+                0x00000000000008a0                WDOG0_IRQHandler
+                0x00000000000008a0                TIMER3_IRQHandler
+                0x00000000000008a0                USART1_TX_IRQHandler
+                0x00000000000008a0                USART4_RX_IRQHandler
+                0x00000000000008a0                SMU_IRQHandler
+                0x00000000000008a0                MSC_IRQHandler
+                0x00000000000008a0                ADC0_IRQHandler
+                0x00000000000008a0                UsageFault_Handler
+                0x00000000000008a0                WDOG1_IRQHandler
+                0x00000000000008a0                LEUART0_IRQHandler
+                0x00000000000008a0                TIMER4_IRQHandler
+                0x00000000000008a0                FPUEH_IRQHandler
+                0x00000000000008a0                WTIMER1_IRQHandler
+                0x00000000000008a0                GPIO_EVEN_IRQHandler
+                0x00000000000008a0                UART0_TX_IRQHandler
+                0x00000000000008a0                UART1_TX_IRQHandler
+                0x00000000000008a0                VDAC0_IRQHandler
+                0x00000000000008a0                QSPI0_IRQHandler
+                0x00000000000008a0                LDMA_IRQHandler
+                0x00000000000008a0                TIMER6_IRQHandler
+                0x00000000000008a0                CSEN_IRQHandler
+                0x00000000000008a0                ADC1_IRQHandler
+                0x00000000000008a0                I2C2_IRQHandler
+                0x00000000000008a0                RTC_IRQHandler
+                0x00000000000008a0                TIMER0_IRQHandler
+                0x00000000000008a0                LCD_IRQHandler
+                0x00000000000008a0                PCNT2_IRQHandler
+                0x00000000000008a0                UART0_RX_IRQHandler
+                0x00000000000008a0                WTIMER2_IRQHandler
+                0x00000000000008a0                LETIMER0_IRQHandler
+                0x00000000000008a0                TIMER1_IRQHandler
+                0x00000000000008a0                TRNG0_IRQHandler
+                0x00000000000008a0                USART2_RX_IRQHandler
+                0x00000000000008a0                Default_Handler
+                0x00000000000008a0                EMU_IRQHandler
+                0x00000000000008a0                CRYOTIMER_IRQHandler
+                0x00000000000008a0                PCNT0_IRQHandler
+                0x00000000000008a0                sl_app_properties
+                0x00000000000008a0                USB_IRQHandler
+                0x00000000000008a0                USART4_TX_IRQHandler
+                0x00000000000008a0                PCNT1_IRQHandler
+                0x00000000000008a0                ACMP0_IRQHandler
+                0x00000000000008a0                USART0_RX_IRQHandler
+                0x00000000000008a0                USART5_TX_IRQHandler
+                0x00000000000008a0                MemManage_Handler
+                0x00000000000008a0                SVC_Handler
+                0x00000000000008a0                USART3_RX_IRQHandler
+                0x00000000000008a0                RTCC_IRQHandler
+                0x00000000000008a0                UART1_RX_IRQHandler
+                0x00000000000008a0                ETH_IRQHandler
+                0x00000000000008a0                CMU_IRQHandler
+                0x00000000000008a0                EBI_IRQHandler
+                0x00000000000008a0                CAN0_IRQHandler
+                0x00000000000008a0                LESENSE_IRQHandler
+                0x00000000000008a0                GPIO_ODD_IRQHandler
+                0x00000000000008a0                USART3_TX_IRQHandler
+                0x00000000000008a0                LETIMER1_IRQHandler
+                0x00000000000008a0                ACMP2_IRQHandler
+                0x00000000000008a0                BusFault_Handler
+                0x00000000000008a0                USART2_TX_IRQHandler
+                0x00000000000008a0                TIMER2_IRQHandler
+                0x00000000000008a0                IDAC0_IRQHandler
+ .text.SystemHFClockGet
+                0x00000000000008a4       0xf4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x00000000000008a4                SystemHFClockGet
+ .text.SystemHFXOClockGet
+                0x0000000000000998       0x18 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x0000000000000998                SystemHFXOClockGet
+ .text.SystemInit
+                0x00000000000009b0       0x2c ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x00000000000009b0                SystemInit
+ .text.SystemLFRCOClockGet
+                0x00000000000009dc       0x12 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x00000000000009dc                SystemLFRCOClockGet
+ .text.SystemULFRCOClockGet
+                0x00000000000009ee       0x12 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x00000000000009ee                SystemULFRCOClockGet
+ .text.SystemLFXOClockGet
+                0x0000000000000a00       0x18 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x0000000000000a00                SystemLFXOClockGet
+ .text.assertEFM
+                0x0000000000000a18        0xc ./emlib/em_assert.o
+                0x0000000000000a18                assertEFM
+ .text.BUS_RegBitWrite
+                0x0000000000000a24       0x2e ./emlib/em_cmu.o
+ *fill*         0x0000000000000a52        0x2 
+ .text.SL_Log2ToDiv
+                0x0000000000000a54       0x2c ./emlib/em_cmu.o
+ .text.auxClkGet
+                0x0000000000000a80       0x20 ./emlib/em_cmu.o
+ .text.hfSrcClkGet
+                0x0000000000000aa0       0x2c ./emlib/em_cmu.o
+ .text.dbgClkGet
+                0x0000000000000acc       0x4c ./emlib/em_cmu.o
+ .text.adcAsyncClkGet
+                0x0000000000000b18       0xac ./emlib/em_cmu.o
+ .text.sdioRefClkGet
+                0x0000000000000bc4       0x88 ./emlib/em_cmu.o
+ .text.qspiRefClkGet
+                0x0000000000000c4c       0x9c ./emlib/em_cmu.o
+ .text.usbRateClkGet
+                0x0000000000000ce8       0xa8 ./emlib/em_cmu.o
+ .text.lfClkGet
+                0x0000000000000d90      0x144 ./emlib/em_cmu.o
+ .text.syncReg  0x0000000000000ed4       0x38 ./emlib/em_cmu.o
+ .text.CMU_ClockEnable
+                0x0000000000000f0c      0x15c ./emlib/em_cmu.o
+                0x0000000000000f0c                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x0000000000001068      0x3d0 ./emlib/em_cmu.o
+                0x0000000000001068                CMU_ClockFreqGet
+ .text.CMU_ClockSelectGet
+                0x0000000000001438      0x334 ./emlib/em_cmu.o
+                0x0000000000001438                CMU_ClockSelectGet
+ .text.BUS_RegBitWrite
+                0x000000000000176c       0x2e ./emlib/em_emu.o
+ .text.BUS_RegBitRead
+                0x000000000000179a       0x2a ./emlib/em_emu.o
+ .text.EMU_IntClear
+                0x00000000000017c4       0x20 ./emlib/em_emu.o
+ .text.EMU_IntGet
+                0x00000000000017e4       0x18 ./emlib/em_emu.o
+ .text.EMU_PowerLock
+                0x00000000000017fc       0x18 ./emlib/em_emu.o
+ .text.EMU_PowerUnlock
+                0x0000000000001814       0x1c ./emlib/em_emu.o
+ .text.dcdcConstCalibrationLoad
+                0x0000000000001830       0x10 ./emlib/em_emu.o
+ .text.dcdcValidatedConfigSet
+                0x0000000000001840       0x40 ./emlib/em_emu.o
+ .text.currentLimitersUpdate
+                0x0000000000001880      0x124 ./emlib/em_emu.o
+ .text.userCurrentLimitsSet
+                0x00000000000019a4       0x30 ./emlib/em_emu.o
+ .text.compCtrlSet
+                0x00000000000019d4       0x4c ./emlib/em_emu.o
+ .text.lpCmpHystCalibrationLoad
+                0x0000000000001a20       0xec ./emlib/em_emu.o
+ .text.lpGetDevinfoVrefLowHigh
+                0x0000000000001b0c      0x164 ./emlib/em_emu.o
+ .text.EMU_DCDCModeSet
+                0x0000000000001c70      0x10c ./emlib/em_emu.o
+                0x0000000000001c70                EMU_DCDCModeSet
+ .text.EMU_DCDCInit
+                0x0000000000001d7c      0x1a8 ./emlib/em_emu.o
+                0x0000000000001d7c                EMU_DCDCInit
+ .text.EMU_DCDCOutputVoltageSet
+                0x0000000000001f24      0x2d8 ./emlib/em_emu.o
+                0x0000000000001f24                EMU_DCDCOutputVoltageSet
+ .text.EMU_DCDCOptimizeSlice
+                0x00000000000021fc       0xe8 ./emlib/em_emu.o
+                0x00000000000021fc                EMU_DCDCOptimizeSlice
+ .text.EMU_DCDCLnRcoBandSet
+                0x00000000000022e4       0x64 ./emlib/em_emu.o
+                0x00000000000022e4                EMU_DCDCLnRcoBandSet
+ .text.BUS_RegMaskedSet
+                0x0000000000002348       0x24 ./emlib/em_gpio.o
+ .text.BUS_RegMaskedClear
+                0x000000000000236c       0x24 ./emlib/em_gpio.o
+ .text.GPIO_PinOutClear
+                0x0000000000002390       0xc0 ./emlib/em_gpio.o
+ .text.GPIO_PinOutSet
+                0x0000000000002450       0xc0 ./emlib/em_gpio.o
+ .text.GPIO_PinModeSet
+                0x0000000000002510      0x180 ./emlib/em_gpio.o
+                0x0000000000002510                GPIO_PinModeSet
+ .text.__NVIC_SetPriority
+                0x0000000000002690       0x54 ./src/blink.o
+ .text.SysTick_Config
+                0x00000000000026e4       0x44 ./src/blink.o
+ .text.CHIP_Init
+                0x0000000000002728       0x6c ./src/blink.o
+ .text.SysTick_Handler
+                0x0000000000002794       0x1c ./src/blink.o
+                0x0000000000002794                SysTick_Handler
+ .text.Delay    0x00000000000027b0       0x30 ./src/blink.o
+                0x00000000000027b0                Delay
+ .text.main     0x00000000000027e0       0x6c ./src/blink.o
+                0x00000000000027e0                main
+ .text.exit     0x000000000000284c       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+                0x000000000000284c                exit
+ .text.__libc_init_array
+                0x0000000000002874       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+                0x0000000000002874                __libc_init_array
+ .text.memset   0x00000000000028bc       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+                0x00000000000028bc                memset
+ .text._exit    0x00000000000028cc        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+                0x00000000000028cc                _exit
+ *(.init)
+ .init          0x00000000000028d0        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+                0x00000000000028d0                _init
+ .init          0x00000000000028d4        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ *(.fini)
+ .fini          0x00000000000028dc        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+                0x00000000000028dc                _fini
+ .fini          0x00000000000028e0        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x00000000000028e8       0x77 ./BSP/bsp_stk_leds.o
+ *fill*         0x000000000000295f        0x1 
+ .rodata.ledExtArray
+                0x0000000000002960       0x38 ./BSP/bsp_stk_leds.o
+ .rodata        0x0000000000002998      0x169 ./emlib/em_cmu.o
+ *fill*         0x0000000000002b01        0x3 
+ .rodata        0x0000000000002b04       0x75 ./emlib/em_emu.o
+ *fill*         0x0000000000002b79        0x3 
+ .rodata        0x0000000000002b7c       0xee ./emlib/em_gpio.o
+ *fill*         0x0000000000002c6a        0x2 
+ .rodata        0x0000000000002c6c       0x10 ./src/blink.o
+ .rodata._global_impure_ptr
+                0x0000000000002c7c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+                0x0000000000002c7c                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x0000000000002c80        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .eh_frame      0x0000000000002c80        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+
+.glue_7         0x0000000000002c84        0x0
+ .glue_7        0x0000000000002c84        0x0 linker stubs
+
+.glue_7t        0x0000000000002c84        0x0
+ .glue_7t       0x0000000000002c84        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000002c84        0x0
+ .vfp11_veneer  0x0000000000002c84        0x0 linker stubs
+
+.v4_bx          0x0000000000002c84        0x0
+ .v4_bx         0x0000000000002c84        0x0 linker stubs
+
+.iplt           0x0000000000002c84        0x0
+ .iplt          0x0000000000002c84        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000002c84                __exidx_start = .
+
+.ARM.exidx      0x0000000000002c84        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000002c84        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+                0x0000000000002c8c                __exidx_end = .
+                0x0000000000002c8c                __etext = .
+
+.rel.dyn        0x0000000000002c8c        0x0
+ .rel.iplt      0x0000000000002c8c        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+
+.data           0x0000000020000000       0x7c load address 0x0000000000002c8c
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.SystemHFXOClock
+                0x0000000020000000        0x4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .data.SystemLFXOClock
+                0x0000000020000004        0x4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .data.SystemHfrcoFreq
+                0x0000000020000008        0x4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                0x0000000020000008                SystemHfrcoFreq
+ .data.auxHfrcoFreq
+                0x000000002000000c        0x4 ./emlib/em_cmu.o
+ .data.ushfrcoFreq
+                0x0000000020000010        0x4 ./emlib/em_cmu.o
+ .data.impure_data
+                0x0000000020000014       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+                0x0000000020000074                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__ram_func_section_start, .)
+ *(.ram)
+                [!provide]                        PROVIDE (__ram_func_section_end, .)
+                0x0000000020000074                . = ALIGN (0x4)
+                0x0000000020000074                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000020000074                PROVIDE (__preinit_array_end, .)
+                0x0000000020000074                . = ALIGN (0x4)
+                0x0000000020000074                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000020000074        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+                0x0000000020000078                PROVIDE (__init_array_end, .)
+                0x0000000020000078                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x0000000020000078        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x000000002000007c                . = ALIGN (0x4)
+                0x000000002000007c                __data_end__ = .
+
+.igot.plt       0x000000002000007c        0x0 load address 0x0000000000002d08
+ .igot.plt      0x000000002000007c        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+
+.bss            0x000000002000007c       0x28 load address 0x0000000000002d08
+                0x000000002000007c                . = ALIGN (0x4)
+                0x000000002000007c                __bss_start__ = .
+ *(.bss*)
+ .bss           0x000000002000007c       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .bss.dcdcMaxCurrent_mA
+                0x0000000020000098        0x2 ./emlib/em_emu.o
+ .bss.dcdcEm01LoadCurrent_mA
+                0x000000002000009a        0x2 ./emlib/em_emu.o
+ .bss.dcdcReverseCurrentControl
+                0x000000002000009c        0x2 ./emlib/em_emu.o
+ *(COMMON)
+ *fill*         0x000000002000009e        0x2 
+ COMMON         0x00000000200000a0        0x4 ./src/blink.o
+                0x00000000200000a0                msTicks
+                0x00000000200000a4                . = ALIGN (0x4)
+                0x00000000200000a4                __bss_end__ = .
+
+.heap           0x00000000200000a8      0xc00
+                0x00000000200000a8                __HeapBase = .
+                0x00000000200000a8                __end__ = .
+                0x00000000200000a8                end = __end__
+                0x00000000200000a8                _end = __end__
+ *(.heap*)
+ .heap          0x00000000200000a8      0xc00 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+                0x0000000020000ca8                __HeapLimit = .
+
+.stack_dummy    0x00000000200000a8      0x400
+ *(.stack*)
+ .stack         0x00000000200000a8      0x400 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+                0x0000000020080000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002007fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020080000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x0000000000000001                ASSERT ((LENGTH (FLASH) >= (__etext + SIZEOF (.data))), FLASH memory overflowed !)
+OUTPUT(Giant_Gecko_blink.axf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000054       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+ .ARM.attributes
+                0x0000000000000074       0x37 ./BSP/bsp_stk_leds.o
+ .ARM.attributes
+                0x00000000000000ab       0x37 ./BSP/bsp_trace.o
+ .ARM.attributes
+                0x00000000000000e2       0x1f ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .ARM.attributes
+                0x0000000000000101       0x37 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .ARM.attributes
+                0x0000000000000138       0x37 ./emlib/em_assert.o
+ .ARM.attributes
+                0x000000000000016f       0x37 ./emlib/em_cmu.o
+ .ARM.attributes
+                0x00000000000001a6       0x37 ./emlib/em_emu.o
+ .ARM.attributes
+                0x00000000000001dd       0x37 ./emlib/em_gpio.o
+ .ARM.attributes
+                0x0000000000000214       0x37 ./src/blink.o
+ .ARM.attributes
+                0x000000000000024b       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000000000000027d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000002af       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000002e1       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000313       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000345       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ .ARM.attributes
+                0x0000000000000377       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e ./BSP/bsp_stk_leds.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f ./BSP/bsp_trace.o
+ .comment       0x000000000000007e       0x7f ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .comment       0x000000000000007e       0x7f ./emlib/em_assert.o
+ .comment       0x000000000000007e       0x7f ./emlib/em_cmu.o
+ .comment       0x000000000000007e       0x7f ./emlib/em_emu.o
+ .comment       0x000000000000007e       0x7f ./emlib/em_gpio.o
+ .comment       0x000000000000007e       0x7f ./src/blink.o
+
+.debug_info     0x0000000000000000     0xa1fc
+ .debug_info    0x0000000000000000      0xbb5 ./BSP/bsp_stk_leds.o
+ .debug_info    0x0000000000000bb5     0x12d5 ./BSP/bsp_trace.o
+ .debug_info    0x0000000000001e8a       0x26 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .debug_info    0x0000000000001eb0      0x9c4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_info    0x0000000000002874       0x7e ./emlib/em_assert.o
+ .debug_info    0x00000000000028f2     0x2aec ./emlib/em_cmu.o
+ .debug_info    0x00000000000053de     0x2fa3 ./emlib/em_emu.o
+ .debug_info    0x0000000000008381      0xb7b ./emlib/em_gpio.o
+ .debug_info    0x0000000000008efc     0x1300 ./src/blink.o
+
+.debug_abbrev   0x0000000000000000     0x119e
+ .debug_abbrev  0x0000000000000000      0x244 ./BSP/bsp_stk_leds.o
+ .debug_abbrev  0x0000000000000244      0x1c9 ./BSP/bsp_trace.o
+ .debug_abbrev  0x000000000000040d       0x14 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .debug_abbrev  0x0000000000000421      0x1ed ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_abbrev  0x000000000000060e       0x68 ./emlib/em_assert.o
+ .debug_abbrev  0x0000000000000676      0x34d ./emlib/em_cmu.o
+ .debug_abbrev  0x00000000000009c3      0x359 ./emlib/em_emu.o
+ .debug_abbrev  0x0000000000000d1c      0x233 ./emlib/em_gpio.o
+ .debug_abbrev  0x0000000000000f4f      0x24f ./src/blink.o
+
+.debug_loc      0x0000000000000000     0x3652
+ .debug_loc     0x0000000000000000      0x4d4 ./BSP/bsp_stk_leds.o
+ .debug_loc     0x00000000000004d4       0xa8 ./BSP/bsp_trace.o
+ .debug_loc     0x000000000000057c      0x2e4 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_loc     0x0000000000000860       0x38 ./emlib/em_assert.o
+ .debug_loc     0x0000000000000898     0x1368 ./emlib/em_cmu.o
+ .debug_loc     0x0000000000001c00     0x13ee ./emlib/em_emu.o
+ .debug_loc     0x0000000000002fee      0x49c ./emlib/em_gpio.o
+ .debug_loc     0x000000000000348a      0x1c8 ./src/blink.o
+
+.debug_aranges  0x0000000000000000      0x670
+ .debug_aranges
+                0x0000000000000000       0x90 ./BSP/bsp_stk_leds.o
+ .debug_aranges
+                0x0000000000000090       0x30 ./BSP/bsp_trace.o
+ .debug_aranges
+                0x00000000000000c0       0x20 ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .debug_aranges
+                0x00000000000000e0       0x68 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_aranges
+                0x0000000000000148       0x20 ./emlib/em_assert.o
+ .debug_aranges
+                0x0000000000000168      0x210 ./emlib/em_cmu.o
+ .debug_aranges
+                0x0000000000000378      0x228 ./emlib/em_emu.o
+ .debug_aranges
+                0x00000000000005a0       0x88 ./emlib/em_gpio.o
+ .debug_aranges
+                0x0000000000000628       0x48 ./src/blink.o
+
+.debug_ranges   0x0000000000000000      0x5d0
+ .debug_ranges  0x0000000000000000       0x80 ./BSP/bsp_stk_leds.o
+ .debug_ranges  0x0000000000000080       0x20 ./BSP/bsp_trace.o
+ .debug_ranges  0x00000000000000a0       0x58 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_ranges  0x00000000000000f8       0x10 ./emlib/em_assert.o
+ .debug_ranges  0x0000000000000108      0x200 ./emlib/em_cmu.o
+ .debug_ranges  0x0000000000000308      0x218 ./emlib/em_emu.o
+ .debug_ranges  0x0000000000000520       0x78 ./emlib/em_gpio.o
+ .debug_ranges  0x0000000000000598       0x38 ./src/blink.o
+
+.debug_macro    0x0000000000000000     0x21dd
+ .debug_macro   0x0000000000000000      0x364 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000364       0x4f ./BSP/bsp_stk_leds.o
+ .debug_macro   0x00000000000003b3       0x51 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x0000000000000404       0xdf ./BSP/bsp_stk_leds.o
+ .debug_macro   0x00000000000004e3      0x383 ./BSP/bsp_trace.o
+ .debug_macro   0x0000000000000866       0xe4 ./BSP/bsp_trace.o
+ .debug_macro   0x000000000000094a       0x22 ./BSP/bsp_trace.o
+ .debug_macro   0x000000000000096c      0x2fb ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_macro   0x0000000000000c67       0x23 ./emlib/em_assert.o
+ .debug_macro   0x0000000000000c8a      0x41b ./emlib/em_cmu.o
+ .debug_macro   0x00000000000010a5       0x58 ./emlib/em_cmu.o
+ .debug_macro   0x00000000000010fd      0x34d ./emlib/em_cmu.o
+ .debug_macro   0x000000000000144a       0x25 ./emlib/em_cmu.o
+ .debug_macro   0x000000000000146f       0xee ./emlib/em_cmu.o
+ .debug_macro   0x000000000000155d       0x87 ./emlib/em_cmu.o
+ .debug_macro   0x00000000000015e4      0x42c ./emlib/em_emu.o
+ .debug_macro   0x0000000000001a10       0x81 ./emlib/em_emu.o
+ .debug_macro   0x0000000000001a91       0xc0 ./emlib/em_emu.o
+ .debug_macro   0x0000000000001b51      0x30e ./emlib/em_gpio.o
+ .debug_macro   0x0000000000001e5f      0x37e ./src/blink.o
+
+.debug_line     0x0000000000000000     0x73bf
+ .debug_line    0x0000000000000000      0xf0b ./BSP/bsp_stk_leds.o
+ .debug_line    0x0000000000000f0b      0xc30 ./BSP/bsp_trace.o
+ .debug_line    0x0000000000001b3b       0xeb ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+ .debug_line    0x0000000000001c26      0xac5 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_line    0x00000000000026eb      0x1b7 ./emlib/em_assert.o
+ .debug_line    0x00000000000028a2     0x191d ./emlib/em_cmu.o
+ .debug_line    0x00000000000041bf     0x17a9 ./emlib/em_emu.o
+ .debug_line    0x0000000000005968      0xe23 ./emlib/em_gpio.o
+ .debug_line    0x000000000000678b      0xc34 ./src/blink.o
+
+.debug_str      0x0000000000000000   0x1e564b
+ .debug_str     0x0000000000000000   0x1df1b6 ./BSP/bsp_stk_leds.o
+                                     0x1e03b4 (size before relaxing)
+ .debug_str     0x00000000001df1b6      0x734 ./BSP/bsp_trace.o
+                                     0x1e08f2 (size before relaxing)
+ .debug_str     0x00000000001df8ea       0xaf ./CMSIS/EFM32GG11B/startup_efm32gg11b.o
+                                        0x10f (size before relaxing)
+ .debug_str     0x00000000001df999      0x28d ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+                                     0x1dd98d (size before relaxing)
+ .debug_str     0x00000000001dfc26       0x87 ./emlib/em_assert.o
+                                       0x2e42 (size before relaxing)
+ .debug_str     0x00000000001dfcad     0x367c ./emlib/em_cmu.o
+                                     0x1e2dfc (size before relaxing)
+ .debug_str     0x00000000001e3329     0x1c48 ./emlib/em_emu.o
+                                     0x1e3ace (size before relaxing)
+ .debug_str     0x00000000001e4f71      0x27f ./emlib/em_gpio.o
+                                     0x1de411 (size before relaxing)
+ .debug_str     0x00000000001e51f0      0x45b ./src/blink.o
+                                     0x1e0f29 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1a24
+ .debug_frame   0x0000000000000000      0x244 ./BSP/bsp_stk_leds.o
+ .debug_frame   0x0000000000000244       0x6c ./BSP/bsp_trace.o
+ .debug_frame   0x00000000000002b0      0x164 ./CMSIS/EFM32GG11B/system_efm32gg11b.o
+ .debug_frame   0x0000000000000414       0x2c ./emlib/em_assert.o
+ .debug_frame   0x0000000000000440      0x900 ./emlib/em_cmu.o
+ .debug_frame   0x0000000000000d40      0x950 ./emlib/em_emu.o
+ .debug_frame   0x0000000000001690      0x21c ./emlib/em_gpio.o
+ .debug_frame   0x00000000000018ac       0xe4 ./src/blink.o
+ .debug_frame   0x0000000000001990       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000000000019b8       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000019e4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001a04       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/7.2_2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/libnosys.a(_exit.o)
