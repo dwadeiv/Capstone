@@ -28,9 +28,10 @@
 //***********************************************************************************
 // private variables
 //***********************************************************************************
-static uint32_t scheduled_comp0_evt;
-static uint32_t scheduled_comp1_evt;
-static uint32_t scheduled_uf_evt;
+
+/////////static uint32_t scheduled_comp0_evt;
+/////////static uint32_t scheduled_comp1_evt;
+/////////static uint32_t scheduled_uf_evt;
 
 //***********************************************************************************
 // functions
@@ -61,7 +62,7 @@ static uint32_t scheduled_uf_evt;
  *
  ******************************************************************************/
 
-void letimer_pwm_open(LETIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_letimer_struct){
+void letimer_pwm_open(TIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_letimer_struct){
 	LETIMER_Init_TypeDef letimer_pwm_values;
 
 
@@ -149,7 +150,7 @@ void letimer_pwm_open(LETIMER_TypeDef *letimer, APP_LETIMER_PWM_TypeDef *app_let
  *
  ******************************************************************************/
 
-void LETIMER0_IRQHandler(void) {
+void TIMER0_IRQHandler(void) {
 	uint32_t int_flag;
 	int_flag = LETIMER0->IF & LETIMER0->IEN;
 	LETIMER0->IFC = int_flag;
@@ -179,20 +180,17 @@ void LETIMER0_IRQHandler(void) {
  * 	 blocked sleep mode is unblocked.
  *
  * @note
- *   Application code should not directly access hardware resources.  The
- *   application program should access the peripherals through the driver
- *   functions
  *
- * @param[in] letimer
- *   Pointer to the base peripheral address of the LETIMER peripheral being
+ * @param[in] timer
+ *   Pointer to the base peripheral address of the TIMER peripheral being
  *   enabled or disable
  *
  * @param[in] enable
- *   true enables the LETIMER to start operation while false disables the
- *   LETIMER
+ *   true enables the TIMER to start operation while false disables the
+ *   TIMER
  *
  ******************************************************************************/
-void letimer_start(LETIMER_TypeDef *letimer, bool enable){
+void timer_start(TIMER_TypeDef *letimer, bool enable){
 	LETIMER_Enable(letimer,enable);
 	while(letimer->SYNCBUSY);
 	if(enable == true){
