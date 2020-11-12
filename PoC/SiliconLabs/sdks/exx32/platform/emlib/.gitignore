@@ -1,0 +1,14 @@
+test/src/arm/*
+test/src/armgcc/*
+test/src/rowley/*
+test/src/iar/*
+test/src/rowley/*
+test/src/atollic/*
+test/src/SimplicityStudio/*
+test/work/*
+autogen
+out/*
+doxydoc/*
+scripts/doxy*
+test/out/*
+autogen
