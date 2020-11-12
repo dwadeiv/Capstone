@@ -477,7 +477,7 @@ static void AppGraphics_DrawTxRxStatus(void)
     static uint32_t framesTx = 0;
     static uint32_t framesRx = 0;
 
-    static uint32_t timestamp = 3;
+    static uint32_t timestamp = 21;
 
 
     framesTx += ETH->FRAMESTXED64;
