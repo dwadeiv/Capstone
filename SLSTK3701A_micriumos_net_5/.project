@@ -224,11 +224,6 @@
 			<locationURI>STUDIO_SDK_LOC/platform/micrium_os/kernel/source/os_flag.c</locationURI>
 		</link>
 		<link>
-			<name>kernel/source/os_mem.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/micrium_os/kernel/source/os_mem.c</locationURI>
-		</link>
-		<link>
 			<name>kernel/source/os_mon.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/micrium_os/kernel/source/os_mon.c</locationURI>
