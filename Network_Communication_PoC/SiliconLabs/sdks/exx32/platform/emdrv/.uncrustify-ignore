@@ -1,0 +1,12 @@
+# EZR RADIODRV ignores
+ezradiodrv/common/inc/ezradio_patch_revC2A_general.h
+ezradiodrv/si4455/inc/ezradio_cmd.h
+ezradiodrv/si4455/inc/ezradio_prop.h
+ezradiodrv/si4460/inc/ezradio_cmd.h
+ezradiodrv/si4460/inc/ezradio_prop.h
+ezradiodrv/si4461/inc/ezradio_cmd.h
+ezradiodrv/si4461/inc/ezradio_prop.h
+ezradiodrv/si4463/inc/ezradio_cmd.h
+ezradiodrv/si4463/inc/ezradio_prop.h
+ezradiodrv/si4468/inc/ezradio_cmd.h
+ezradiodrv/si4468/inc/ezradio_prop.h

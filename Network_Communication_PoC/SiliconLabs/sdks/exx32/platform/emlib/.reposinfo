@@ -1,0 +1,4 @@
+reposname = s038_emlib
+type = software
+repospath = /repos/s038_emlib.git
+desc = Combined EFM32 and EFR4 peripheral library
