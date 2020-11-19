@@ -1,7 +1,0 @@
-# This file contains a list of commits to be ignored by git-hyper-blame.
-# Commits added here should only be sweeping changes that are unhelpful in
-# git blame output.
-
-0dbc4af25a73cb4b117043c948b85b65e7130d2d
-223f5ef8a59b19ea25b2438c13d25dfe396628e7
-aeb2450ee5daef25fe05c3d120590d9cda3c419e
