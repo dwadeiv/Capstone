@@ -1,4 +1,0 @@
-reposname = s036_cmsis_device
-type = software
-repospath = /repos/s036_cmsis_device.git
-desc = CMSISv3 Device File Structure
