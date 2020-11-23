@@ -1,0 +1,3 @@
+17:57:17 **** Incremental Build of configuration GNU ARM v7.2.1 - Debug for project Clock_Adjustment_PoC ****
+make -j4 all 
+make: Nothing to be done for `all'.

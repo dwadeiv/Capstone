@@ -1,0 +1,219 @@
+/**
+ * @file letimer.c
+ * @author David Wade
+ * @date November 19th, 2020
+ * @brief Contains all the DPLL driver functions
+ *
+ */
+
+////////////////// TO DO //////////////////
+
+//***********************************************************************************
+// Include files
+//***********************************************************************************
+
+//** Standard Libraries
+
+//** Silicon Lab include files
+#include "em_cmu.h"
+#include "em_assert.h"
+
+//** User/developer include files
+#include "dpll.h"
+
+//***********************************************************************************
+// defined files
+//***********************************************************************************
+
+
+//***********************************************************************************
+// private variables
+//***********************************************************************************
+static uint32_t scheduled_lock_done_evt;
+static uint32_t scheduled_unlock_done_evt;
+static bool 	lock_attempt;
+
+//static CMU_DPLLInit_TypeDef dpll_struct;
+
+//***********************************************************************************
+// functions
+//***********************************************************************************
+
+/***************************************************************************//**
+ * @brief
+ *   Driver to open an set an LETIMER peripheral in PWM mode
+ *
+ * @details
+ * 	 This routine is a low level driver.  The application code calls this function
+ * 	 to open one of the LETIMER peripherals for PWM operation to directly drive
+ * 	 GPIO output pins of the device and/or create interrupts that can be used as
+ * 	 a system "heart beat" or by a scheduler to determine whether any system
+ * 	 functions need to be serviced.
+ *
+ * @note
+ *   This function is normally called once to initialize the peripheral and the
+ *   function letimer_start() is called to turn-on or turn-off the LETIMER PWM
+ *   operation.
+ *
+ * @param[in] letimer
+ *   Pointer to the base peripheral address of the LETIMER peripheral being opened
+ *
+ * @param[in] app_letimer_struct
+ *   Is the STRUCT that the calling routine will use to set the parameters for PWM
+ *   operation
+ *
+ ******************************************************************************/
+
+void dpll_open(APP_DPLL_TypeDef *app_dpll_struct, CMU_DPLLInit_TypeDef *dpll_struct){
+
+	// Enabling the High Frequency Peripheral Clock Tree
+	CMU_ClockEnable(cmuClock_HFPER, true);
+	CMU_ClockEnable(cmuClock_CORELE, true);
+
+	/* Use EFM_ASSERT statements to verify whether the LETIMER clock tree is properly
+	 * configured and enabled
+	 */
+//	letimer->CMD = LETIMER_CMD_START;
+//	while (letimer->SYNCBUSY);
+//	EFM_ASSERT(letimer->STATUS & LETIMER_STATUS_RUNNING);
+//	letimer->CMD = LETIMER_CMD_STOP;
+
+
+	dpll_struct.autoRecover = app_dpll_struct->autoRecover;
+	dpll_struct.edgeSel = app_dpll_struct->edgeSel;
+	dpll_struct.frequency = app_dpll_struct->frequency;
+	dpll_struct.lockMode = app_dpll_struct->lockMode;
+	dpll_struct.m = app_dpll_struct->m;
+	dpll_struct.n = app_dpll_struct->n;
+	dpll_struct.refClk = app_dpll_struct->refClk;
+	dpll_struct.ssAmplitude = app_dpll_struct->ssAmplitude;
+	dpll_struct.ssInterval = app_dpll_struct->ssInterval;
+
+	// Enabling the DPLL
+	CMU->OSCENCMD |= DPLL_ENABLE;
+	// Enabling the FINETUNING
+	CMU->HFRCOCTRL |= HFRCO_FINETUNING;
+
+
+//	while(CMU->SYNCBUSY);
+
+	CMU->CTRL &= ~_CMU_CTRL_CLKOUTSEL0_MASK;
+	CMU->CTRL |= CMU_CTRL_CLKOUTSEL0_HFRCOQ;
+
+	CMU->ROUTELOC0 = app_dpll_struct->out_pin_route0;
+	CMU->ROUTEPEN = app_dpll_struct->out_pin_0_en;
+
+//	while(CMU->SYNCBUSY);
+
+	/* We are not enabling any interrupts at this tie.  If you were, you would enable them now */
+	// clearing flags
+//	letimer->IFC = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
+	CMU->IFC = CMU_IFC_DPLLLOCKFAILHIGH | CMU_IFC_DPLLLOCKFAILLOW | CMU_IFC_DPLLRDY;
+	// enabling interrupts
+//	letimer->IEN = (LETIMER_IEN_COMP0 * app_letimer_struct->comp0_irq_enable | LETIMER_IEN_COMP1 * app_letimer_struct->comp1_irq_enable | LETIMER_IEN_UF * app_letimer_struct->uf_irq_enable);
+	CMU->IEN = CMU_IEN_DPLLLOCKFAILHIGH | CMU_IEN_DPLLLOCKFAILLOW | CMU_IEN_DPLLRDY;
+
+	scheduled_lock_done_evt = app_dpll_struct->lock_done_evt;
+	scheduled_unlock_done_evt = app_dpll_struct->unlock_done_evt;
+	NVIC_EnableIRQ(CMU_IRQn);
+
+	dpll_start();
+
+}
+
+/***************************************************************************//**
+ * @brief
+ * 	This is IRQ handler function for the CMU
+ *
+ * @details
+ * 	This function first clears the interrupt flag, then checks through each active
+ * 	peripheral to find out the source of the interrupt. Once the source of the interrupt
+ * 	flag is found, then an event is added to the scheduler for the corresponding peripheral.
+ *
+ * @note
+ * 	This handler will work for any application utilizing the FAILHIGH or FAILLOW CMU
+ * 	peripherals
+ *
+ ******************************************************************************/
+
+void CMU_IRQHandler(void) {
+	uint32_t int_flag;
+	int_flag = CMU->IF & CMU->IEN;
+	CMU->IFC = int_flag;
+	if(int_flag & CMU_IF_DPLLLOCKFAILHIGH){
+		EFM_ASSERT(!(CMU->IF & CMU_IF_DPLLLOCKFAILHIGH));
+		EFM_ASSERT(false);
+	}
+	if(int_flag & CMU_IF_DPLLLOCKFAILLOW){
+		EFM_ASSERT(!(CMU->IF & CMU_IF_DPLLLOCKFAILLOW));
+		EFM_ASSERT(false);
+		//add_scheduled_event(scheduled_faillow_evt);
+	}
+	if(int_flag & CMU_IF_DPLLRDY){
+			//EFM_ASSERT(!(CMU->IF & CMU_IF_DPLLRDY));
+		EFM_ASSERT(lock_attempt == true);
+		dpll_clk_enable();                       // use clock once dpll is ready
+	}
+}
+/***************************************************************************//**
+ * @brief
+ *   Used to enable, turn-on, or disable, turn-off, the LETIMER peripheral
+ *
+ * @details
+ *
+ * @note
+ *
+ * @param[in] dpll_struct
+ *
+ * @param[in] enable
+ *   true enables the LETIMER to start operation while false disables the
+ *   LETIMER
+ *
+ ******************************************************************************/
+void dpll_start(){
+
+//	LETIMER_Enable(letimer,enable);
+//	while(letimer->SYNCBUSY);
+//	if(enable == true){
+//		if((letimer->STATUS & LETIMER_STATUS_RUNNING) == false){
+//			sleep_block_mode(LETIMER_EM);
+//		}
+//	}
+//	if(enable == false && (LETIMER0->STATUS & LETIMER_STATUS_RUNNING) != false){
+//		sleep_unblock_mode(LETIMER_EM);
+//	}
+
+
+
+	 CMU_DPLLLock(dpll_struct);
+
+
+//		CMU_ClockSelectSet(cmuClock_HF, cmuSelect_HFRCO);  // need to wait for ready interupt
+//
+//		// 10 second delay
+//		timer_delay(10000);
+//
+//		CMU_DPLLUnlock();
+//		CMU_ClockSelectSet(cmuClock_HF, cmuSelect_HFRCODIV2);
+//
+//		// 10 second delay
+//		timer_delay(10000);
+
+}
+
+
+void dpll_clk_enable(){
+
+	CMU_ClockSelectSet(cmuClock_HF, cmuSelect_HFRCO);
+	add_scheduled_event(scheduled_lock_done_evt);
+}
+
+void dpll_unlock(){
+
+	CMU_ClockSelectSet(cmuClock_HF, cmuSelect_HFRCODIV2);
+	CMU_DPLLUnlock();
+	add_scheduled_event(scheduled_unlock_done_evt);
+
+}
+
+

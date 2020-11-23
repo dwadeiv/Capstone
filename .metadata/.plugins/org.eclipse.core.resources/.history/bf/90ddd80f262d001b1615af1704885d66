@@ -1,0 +1,211 @@
+/**
+ * @file app.c
+ * @author David Wade
+ * @date November 19th, 2020
+ * @brief Contains the application code utilizing the LETIMER driver functions
+ *
+ */
+
+
+//***********************************************************************************
+// Include files
+//***********************************************************************************
+#include "app.h"
+#include "dpll.h"
+
+
+//***********************************************************************************
+// defined files
+//***********************************************************************************
+
+
+//***********************************************************************************
+// global variables
+//***********************************************************************************
+
+
+//***********************************************************************************
+// function
+//***********************************************************************************
+
+/***************************************************************************//**
+ * @brief
+ * 	Used to initialize the peripherals
+ *
+ *
+ * @details
+ * 	Calls cmu_open to set up the ULFRCO clock to the Low Frequency clock tree
+ * 	Calls gpio_open() to establish the output for the PWM
+ * 	Calls app_dpll_open to create an instance of the dpll
+ * 	Calls scheduler_open() to initialize the scheduler
+ * 	Calls sleep_open to initialize the energy modes
+ *
+ *
+ * @note
+ * 	Application code should not change anything from the LETIMER driver and the clock or GPIO configuration
+ *
+ *
+ ******************************************************************************/
+void app_peripheral_setup(void){
+	gpio_open();
+	scheduler_open();
+	app_dpll_open(DPLL_FREQUENCY, DPLL_N, DPLL_M, DPLL_ssInterval, DPLL_ssAmplitude, DPLL_REFCLK, DPLL_edge_SEL, DPLL_LOCK_MODE, DPLL_AUTO_RECOVER);
+	sleep_open();
+}
+
+
+/***************************************************************************//**
+ * @brief
+ *
+ *
+ * @details
+ *
+ *
+ * @note
+ *
+ *
+ * @param[in] frequency
+ *
+ *
+ * @param[in] n
+ *
+ *
+ * @param[in] m
+ *
+ *
+ * @param[in] ssInterval
+ *
+ *
+ * @param[in] ssAmplitude
+ *
+ *
+ * @param[in] refClk
+ *
+ *
+ * @param[in] edgeSel
+ *
+ *
+ * @param[in] lockMode
+ *
+ *
+ * @param[in] autoRecover
+ *
+ ******************************************************************************/
+void app_dpll_open(uint32_t frequency, uint16_t n, uint16_t m, uint8_t ssInterval, uint8_t ssAmplitude, CMU_DPLLClkSel_TypeDef refClk, CMU_DPLLEdgeSel_TypeDef edgeSel, CMU_DPLLLockMode_TypeDef lockMode, bool autoRecover){
+	// Initializing DPLL
+	APP_DPLL_TypeDef app_dpll_struct;
+
+	app_dpll_struct.autoRecover = autoRecover;
+	app_dpll_struct.edgeSel = edgeSel;
+	app_dpll_struct.frequency = frequency;
+	app_dpll_struct.lockMode = lockMode;
+	app_dpll_struct.m = m;
+	app_dpll_struct.n = n;
+	app_dpll_struct.refClk = refClk;
+	app_dpll_struct.ssAmplitude = ssAmplitude;
+	app_dpll_struct.ssInterval = ssInterval;
+	app_dpll_struct.unlock_done_evt = DPLL_LOCK_DONE_EVT;
+	app_dpll_struct.lock_done_evt = DPLL_UNLOCK_DONE_EVT;
+	app_dpll_struct.out_pin_route0 = CMU_ROUTE_OUT0;
+	app_dpll_struct.out_pin_0_en = CMU_OUT0_EN;
+
+	dpll_open(&app_dpll_struct);
+
+}
+
+/***************************************************************************//**
+ * @brief
+ * 	Removes scheduled COMP0 event
+ *
+ * @details
+ * 	Function asserts that interrupts are disabled for COMP0
+ *
+ * @note
+ * 	Event is still removed even though interrupts are disabled
+ *
+ *
+ ******************************************************************************/
+
+void scheduled_dpll_lock_done_evt(void){
+
+	remove_scheduled_event(DPLL_LOCK_DONE_EVT);
+
+	timer_delay(10000);
+
+	dpll_unlock();
+
+
+}
+
+/***************************************************************************//**
+ * @brief
+ * 	Removes scheduled COMP0 event
+ *
+ * @details
+ * 	Function asserts that interrupts are disabled for COMP0
+ *
+ * @note
+ * 	Event is still removed even though interrupts are disabled
+ *
+ *
+ ******************************************************************************/
+
+void scheduled_dpll_unlock_done_evt (void){
+	remove_scheduled_event(DPLL_UNLOCK_DONE_EVT);
+
+	timer_delay(10000);
+
+	dpll_start();
+}
+
+
+/***************************************************************************//**
+ * @brief
+ * 	This function cycles through the various energy modes.
+ *
+ * @details
+ * 	Reads the current lowest energy  mode setting, unblocks this current energy mode setting if its less than 4, then
+ * 	when the current mode reaches 4, the the energy mode is set back to EM0.
+ *
+ * @note
+ * 	Function utilizes sleep_routines library
+ *
+ ******************************************************************************/
+
+//void scheduled_dpll_failhigh_evt (void){
+//	remove_scheduled_event(DPLL_FAILHIGH_EVT);
+//	EFM_ASSERT(false);
+
+	////// Write if statements in case for unlock and lock scenario
+
+//	EFM_ASSERT(get_scheduled_event() & LETIMER0_UF_EVT);
+//	remove_scheduled_event(LETIMER0_UF_EVT);
+//	uint32_t low_mode = current_block_energy_mode();
+//	sleep_unblock_mode(low_mode);
+//	if(low_mode < EM4){
+//		sleep_block_mode(low_mode + 1);
+//	}
+//	else{
+//		sleep_block_mode(EM0);
+//	}
+//}
+
+/***************************************************************************//**
+ * @brief
+ * 	Removes scheduled COMP0 event
+ *
+ * @details
+ * 	Function asserts that interrupts are disabled for COMP0
+ *
+ * @note
+ * 	Event is still removed even though interrupts are disabled
+ *
+ *
+ ******************************************************************************/
+
+//void scheduled_dpll_faillow_evt (void){
+//	remove_scheduled_event(DPLL_FAILLOW_EVT);
+//	EFM_ASSERT(false);
+//}
+
+
