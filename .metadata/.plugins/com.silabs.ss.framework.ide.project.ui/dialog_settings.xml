@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.silabs.ss.framework.ide.project.ui.ExportSLSProjectsWizard">
+		<item value="C:\Users\dante\Desktop\NNTS" key="lastFileLocation"/>
+		<list key="selectedProjects">
+			<item value="Clock_Adjustment_PoC"/>
+		</list>
+		<list key="fileLocationHistory">
+			<item value="C:/Users/dante/Desktop/NNTS/Capstone"/>
+			<item value="C:\Users\dante\Desktop\NNTS\Capstone\Clock_Adjustment_PoC"/>
+			<item value="C:\Users\dante\Desktop\NNTS"/>
+		</list>
+	</section>
+</section>
